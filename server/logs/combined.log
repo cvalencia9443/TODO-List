@@ -1,0 +1,43 @@
+{"level":"info","message":"Initializing database...","service":"todolist-api","timestamp":"2025-08-30 13:03:58"}
+{"level":"info","message":"Running 1 pending migrations","service":"todolist-api","timestamp":"2025-08-30 13:03:58"}
+{"level":"info","message":"Applying migration: 001_initial_schema.sql","service":"todolist-api","timestamp":"2025-08-30 13:03:58"}
+{"code":"42703","file":"indexcmds.c","length":97,"level":"error","line":"1834","message":"Migration failed, rolling back: column \"user_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","service":"todolist-api","severity":"ERROR","stack":"error: column \"user_id\" does not exist\n    at /Users/cesarvalencia/Desktop/TODOList/server/node_modules/pg/lib/client.js:545:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async runMigrations (/Users/cesarvalencia/Desktop/TODOList/server/src/config/migrations.ts:66:9)\n    at async initializeDatabase (/Users/cesarvalencia/Desktop/TODOList/server/src/config/initDatabase.ts:7:5)\n    at async startServer (/Users/cesarvalencia/Desktop/TODOList/server/src/index.ts:91:5)","timestamp":"2025-08-30 13:03:58"}
+{"level":"info","message":"Initializing database...","service":"todolist-api","timestamp":"2025-08-30 13:05:13"}
+{"level":"info","message":"Running 1 pending migrations","service":"todolist-api","timestamp":"2025-08-30 13:05:13"}
+{"level":"info","message":"Applying migration: 001_initial_schema.sql","service":"todolist-api","timestamp":"2025-08-30 13:05:13"}
+{"code":"42703","file":"indexcmds.c","length":97,"level":"error","line":"1834","message":"Migration failed, rolling back: column \"user_id\" does not exist","name":"error","routine":"ComputeIndexAttrs","service":"todolist-api","severity":"ERROR","stack":"error: column \"user_id\" does not exist\n    at /Users/cesarvalencia/Desktop/TODOList/server/node_modules/pg/lib/client.js:545:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async runMigrations (/Users/cesarvalencia/Desktop/TODOList/server/src/config/migrations.ts:66:9)\n    at async initializeDatabase (/Users/cesarvalencia/Desktop/TODOList/server/src/config/initDatabase.ts:7:5)\n    at async startServer (/Users/cesarvalencia/Desktop/TODOList/server/src/index.ts:91:5)","timestamp":"2025-08-30 13:05:13"}
+{"level":"info","message":"Database reset completed","service":"todolist-api","timestamp":"2025-08-30 13:06:17"}
+{"level":"info","message":"Running 1 pending migrations","service":"todolist-api","timestamp":"2025-08-30 13:06:17"}
+{"level":"info","message":"Applying migration: 001_initial_schema.sql","service":"todolist-api","timestamp":"2025-08-30 13:06:17"}
+{"code":"23505","constraint":"migrations_filename_key","detail":"Key (filename)=(001_initial_schema.sql) already exists.","file":"nbtinsert.c","length":238,"level":"error","line":"671","message":"Migration failed, rolling back: duplicate key value violates unique constraint \"migrations_filename_key\"","name":"error","routine":"_bt_check_unique","schema":"public","service":"todolist-api","severity":"ERROR","stack":"error: duplicate key value violates unique constraint \"migrations_filename_key\"\n    at /Users/cesarvalencia/Desktop/TODOList/server/node_modules/pg/lib/client.js:545:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async runMigrations (/Users/cesarvalencia/Desktop/TODOList/server/src/config/migrations.ts:69:9)\n    at async Command.<anonymous> (/Users/cesarvalencia/Desktop/TODOList/server/src/scripts/db.ts:65:7)","table":"migrations","timestamp":"2025-08-30 13:06:17"}
+{"level":"info","message":"Initializing database...","service":"todolist-api","timestamp":"2025-08-30 13:08:55"}
+{"level":"info","message":"Running 1 pending migrations","service":"todolist-api","timestamp":"2025-08-30 13:08:55"}
+{"level":"info","message":"Applying migration: 001_initial_schema.sql","service":"todolist-api","timestamp":"2025-08-30 13:08:55"}
+{"level":"info","message":"Migration applied: 001_initial_schema.sql","service":"todolist-api","timestamp":"2025-08-30 13:08:55"}
+{"level":"info","message":"All migrations completed successfully","service":"todolist-api","timestamp":"2025-08-30 13:08:55"}
+{"level":"info","message":"✅ Database initialized successfully","service":"todolist-api","timestamp":"2025-08-30 13:08:55"}
+{"environment":"development","level":"info","message":"🚀 Server is running on port 3001","nodeVersion":"v20.19.2","port":"3001","service":"todolist-api","timestamp":"2025-08-30 13:08:55"}
+{"level":"info","message":"Initializing database...","service":"todolist-api","timestamp":"2025-08-30 18:26:09"}
+{"level":"info","message":"No pending migrations","service":"todolist-api","timestamp":"2025-08-30 18:26:09"}
+{"level":"info","message":"✅ Database initialized successfully","service":"todolist-api","timestamp":"2025-08-30 18:26:09"}
+{"environment":"development","level":"info","message":"🚀 Server is running on port 3001","nodeVersion":"v20.19.2","port":"3001","service":"todolist-api","timestamp":"2025-08-30 18:26:09"}
+{"level":"info","message":"Initializing database...","service":"todolist-api","timestamp":"2025-08-30 18:28:14"}
+{"level":"info","message":"No pending migrations","service":"todolist-api","timestamp":"2025-08-30 18:28:14"}
+{"level":"info","message":"✅ Database initialized successfully","service":"todolist-api","timestamp":"2025-08-30 18:28:14"}
+{"environment":"development","level":"info","message":"🚀 Server is running on port 3001","nodeVersion":"v20.19.2","port":"3001","service":"todolist-api","timestamp":"2025-08-30 18:28:14"}
+{"level":"info","message":"Initializing database...","service":"todolist-api","timestamp":"2025-08-30 18:36:28"}
+{"level":"info","message":"Initializing database...","service":"todolist-api","timestamp":"2025-08-30 18:36:28"}
+{"level":"info","message":"No pending migrations","service":"todolist-api","timestamp":"2025-08-30 18:36:28"}
+{"level":"info","message":"No pending migrations","service":"todolist-api","timestamp":"2025-08-30 18:36:28"}
+{"level":"info","message":"✅ Database initialized successfully","service":"todolist-api","timestamp":"2025-08-30 18:36:28"}
+{"environment":"development","level":"info","message":"🚀 Server is running on port 3001","nodeVersion":"v20.19.2","port":"3001","service":"todolist-api","timestamp":"2025-08-30 18:36:28"}
+{"level":"info","message":"✅ Database initialized successfully","service":"todolist-api","timestamp":"2025-08-30 18:36:28"}
+{"environment":"development","level":"info","message":"🚀 Server is running on port 3001","nodeVersion":"v20.19.2","port":"3001","service":"todolist-api","timestamp":"2025-08-30 18:36:28"}
+{"level":"info","message":"Initializing database...","service":"todolist-api","timestamp":"2025-08-30 18:52:39"}
+{"level":"info","message":"No pending migrations","service":"todolist-api","timestamp":"2025-08-30 18:52:39"}
+{"level":"info","message":"✅ Database initialized successfully","service":"todolist-api","timestamp":"2025-08-30 18:52:39"}
+{"environment":"development","level":"info","message":"🚀 Server is running on port 3001","nodeVersion":"v20.19.2","port":"3001","service":"todolist-api","timestamp":"2025-08-30 18:52:39"}
+{"level":"info","message":"Initializing database...","service":"todolist-api","timestamp":"2025-08-30 18:53:24"}
+{"level":"info","message":"No pending migrations","service":"todolist-api","timestamp":"2025-08-30 18:53:24"}
+{"level":"info","message":"✅ Database initialized successfully","service":"todolist-api","timestamp":"2025-08-30 18:53:24"}
+{"environment":"development","level":"info","message":"🚀 Server is running on port 3001","nodeVersion":"v20.19.2","port":"3001","service":"todolist-api","timestamp":"2025-08-30 18:53:24"}
